@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Orbit - Bootstrap 5 Resume/CV Template for Developers</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-3.css">
+</head> 
+
+<body>
+    <div class="wrapper mt-lg-5">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="assets/images/profile.png" alt="" />
+                <h1 class="name">박현철</h1>
+                <h3 class="tagline">Hyuncheol Park</h3>
+            </div><!--//profile-container-->
+
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto: yourname@email.com">hy2850@gmail.com</a></li>
+                    <li class="github"><i class="fab fa-github"></i><a href="#" target="_blank">hy2850</a></li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">학력</h2>
+                <div class="item">
+                    <h4 class="degree"><i class="fas fa-graduation-cap"></i> BSc in School of Computing</h4>
+                    <h4 class="degree"><i class="fas fa-graduation-cap"></i> BSc in Bio and Brain Engineering</h4>
+                    <h5 class="meta">Korea Advanced Institute of Science and Technology(KAIST)</h5>
+                    <div class="meta">GPA: 4.03/4.30</div>
+                    <div class="time">2016.03 - Current</div>
+                </div><!--//item-->
+            </div><!--//education-container-->
+        
+
+        </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">
+        
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Experiences</h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">데이터분석가, 인턴</h3>
+                            <div class="time">2018.06 - 2018.08</div>
+                        </div><!--//upper-row-->
+                        <div class="company">블루홀(현 크래프톤) 데이터개발팀</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>데이터개발팀 인턴으로 일하며 자사 게임의 사용자 이탈 요인을 분석하는 프로젝트를 진행함. 데이터베이스 집계 및 통계분석을 활용해서 결론을 도출함. 분석 결과는 운영팀에 전달되어 향후업데이트에 반영됨. </p>
+                        <i class="fas fa-pen"></i> 사용한 기술 스택 : Python, R
+                    </div><!--//details-->
+                </div><!--//item-->
+            
+            </section><!--//section-->
+            
+            <section class="section projects-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Projects</h2>
+                <div class="item">
+                    <span style = "font-weight: bold" class="project-title">
+                        (개인 프로젝트) Dual Pomodoro Timer</span>
+                    <p>     
+                        학습/휴식 모드가 번갈아가며 실행되는 타이머 어플리케이션 개발.<br>
+                        처음에 100% Javascript 코드로 짜서, 나중에 React 및 Redux를 활용하도록 코드를 리팩토링<br>                     
+                    <p>     
+                        <i class="fas fa-pen"></i> 사용한 기술 스택 - Javascript, React, Redux                   
+                </div><!--//item-->
+                
+                <br>
+
+                <div class="item">
+                    <span style = "font-weight: bold" class="project-title">
+                        (개인 프로젝트) Song Genetic Algorithm</span>
+                    <p>     
+                        무작위 음표를 재배열해서 원하는 음악을 빠르게 찾아내는 유전 알고리즘 시뮬레이터 개발. <br>
+                        Javascript로 유전 알고리즘 로직 구현, UI 및 오디오 구현을 위해 p5.js 라이브러리 사용. <br>
+                        <p>   
+                            <i class="fas fa-pen"></i> 사용한 기술 스택 - Javascript, p5.js                 
+                </div><!--//item-->
+
+                <br>
+                
+                <div class="item">
+                    <span style = "font-weight: bold" class="project-title">
+                        (팀 프로젝트) ORZ - 과제 스케쥴 정리를 위한 모바일 어플리케이션</span>
+                    <p>     
+                        MVC 패턴으로 개발 <br>
+                        <p>   
+                            <i class="fas fa-pen"></i> 사용한 기술 스택 - Java, Android Studio
+                </div><!--//item-->
+            </section><!--//section-->
+            
+            <section class="skills-section section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>개발 기술</h2>
+                <div class="skillset">        
+                    <h5>프로그래밍 언어</h5>
+                    <div class="item">
+                        <h3 class="level-title">Python</h3>
+                        <span style="color: #7EC68E">●●●●●</span> (능숙)
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">C++</h3>
+                        <span style="color: #7EC68E">●●●●○</span> (능숙)
+                    </div><!--//item-->
+
+
+                    <div class="item">
+                        <h3 class="level-title">Javascript</h3>
+                        <span style="color: #7EC68E">●●●○○</span> (경험 있음) 
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Java</h3>
+                        <span style="color: #7EC68E">●●○○○</span> (경험 있음 - 복습 필요)
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">R</h3>
+                        <span style="color: #7EC68E">●●○○○</span> (경험 있음 - 복습 필요)
+                    </div><!--//item-->
+
+                    <h5>프론트엔드</h5>
+                    <div class="item">
+                        <h3 class="level-title">React &amp; Redux</h3>
+                        <span style="color: #7EC68E">●●●○○</span> (경험 있음)
+                    </div><!--//item-->
+
+
+                    <h5>백엔드</h5>
+                    <div class="item">
+                        <h3 class="level-title">NodeJS</h3>
+                        <span style="color: #7EC68E">●○○○○</span> (초보자)
+                    </div><!--//item-->
+
+                    
+                    <h5>기타</h5>
+                    <div class="item">
+                        <h3 class="level-title">Git</h3>
+                        <span style="color: #7EC68E">●●●●○</span> (능숙)
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">RDBMS (e.g. mySQL)</h3>
+                        <span style="color: #7EC68E">●●●○○</span> (경험 있음)
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">noSQL (e.g. mongoDB) </h3>
+                        <span style="color: #7EC68E">●○○○○</span> (초보자)
+                    </div><!--//item-->
+                </div>  
+            </section><!--//skills-section-->
+            
+        </div><!--//main-body-->
+    </div>
+ 
+    <footer class="footer">
+        <div class="text-center">
+            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+        
+</body>
+</html> 
+
